@@ -1,5 +1,5 @@
-D:/Killian/Projets/Test/cmake-build-debug/Test_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Killian/Projets/Test/mainwindow.h \
-  D:/Killian/Projets/Test/cmake-build-debug/Test_autogen/moc_predefs.h \
+D:/Killian/Projets/FindAngle/cmake-build-debug/Test_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Killian/Projets/FindAngle/mainwindow.h \
+  D:/Killian/Projets/FindAngle/cmake-build-debug/Test_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
@@ -288,5 +288,5 @@ D:/Killian/Projets/Test/cmake-build-debug/Test_autogen/EWIEGA46WW/moc_mainwindow
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/Killian/Projets/Test/SvgLoader.h \
-  D:/Killian/Projets/Test/Triangle.hpp
+  D:/Killian/Projets/FindAngle/SvgLoader.h \
+  D:/Killian/Projets/FindAngle/Triangle.hpp

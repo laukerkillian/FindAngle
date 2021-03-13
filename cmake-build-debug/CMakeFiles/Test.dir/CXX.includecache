@@ -1322,15 +1322,15 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-D:/Killian/Projets/Test/SvgLoader.h
+D:/Killian/Projets/FindAngle/SvgLoader.h
 QtSvg/QSvgWidget
 -
 QString
 -
 
-D:/Killian/Projets/Test/mainwindow.cpp
+D:/Killian/Projets/FindAngle/mainwindow.cpp
 mainwindow.h
-D:/Killian/Projets/Test/mainwindow.h
+D:/Killian/Projets/FindAngle/mainwindow.h
 QMainWindow
 -
 QWidget
@@ -1346,7 +1346,7 @@ Triangle.hpp
 cmath
 -
 
-D:/Killian/Projets/Test/mainwindow.h
+D:/Killian/Projets/FindAngle/mainwindow.h
 QMainWindow
 -
 QWidget
@@ -1360,7 +1360,7 @@ QFormLayout
 QLineEdit
 -
 SvgLoader.h
-D:/Killian/Projets/Test/SvgLoader.h
+D:/Killian/Projets/FindAngle/SvgLoader.h
 QDoubleSpinBox
 -
 Triangle.hpp

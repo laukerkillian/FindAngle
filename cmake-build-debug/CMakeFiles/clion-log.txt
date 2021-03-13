@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Killian\Projets\Test
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Killian\Projets\FindAngle
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Killian/Projets/Test/cmake-build-debug
+-- Build files have been written to: D:/Killian/Projets/FindAngle/cmake-build-debug

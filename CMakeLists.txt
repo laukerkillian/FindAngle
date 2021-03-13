@@ -1,10 +1,8 @@
 cmake_minimum_required(VERSION "3.5")
-project("Test" VERSION "1.0" LANGUAGES CXX)
+project("FindAngle" VERSION "1.0" LANGUAGES CXX)
 
-#set(CMAKE_CXX_COMPILER "C:/Qt/Tools/mingw810_64/bin/g++") #define compiler C++
-
-set(CMAKE_PREFIX_PATH "C:/Qt/5.15.2/mingw81_64")
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_PREFIX_PATH "C:/Qt/5.15.2/mingw81_64") # path to ur Qt5 mingw folder
+set(CMAKE_CXX_STANDARD 11) # minimum c++ version required
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(${QT_USE_FILE})

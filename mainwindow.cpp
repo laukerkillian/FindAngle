@@ -19,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 void MainWindow::init() {
     this->setWindowIcon(QIcon("../assets/logo.png"));
+    this->setWindowTitle("FindAngle");
     m_main = new QWidget(this);
 
     m_main_layout = new QVBoxLayout();

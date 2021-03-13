@@ -115,8 +115,8 @@ CMakeFiles/Test.dir/SvgLoader.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
- D:/Killian/Projets/Test/SvgLoader.cpp
- D:/Killian/Projets/Test/SvgLoader.h
+ D:/Killian/Projets/FindAngle/SvgLoader.cpp
+ D:/Killian/Projets/FindAngle/SvgLoader.h
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj
  ../Triangle.hpp
  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
@@ -251,10 +251,10 @@ CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
- D:/Killian/Projets/Test/SvgLoader.h
- D:/Killian/Projets/Test/cmake-build-debug/Test_autogen/EWIEGA46WW/moc_mainwindow.cpp
- D:/Killian/Projets/Test/cmake-build-debug/Test_autogen/mocs_compilation.cpp
- D:/Killian/Projets/Test/mainwindow.h
+ D:/Killian/Projets/FindAngle/SvgLoader.h
+ D:/Killian/Projets/FindAngle/cmake-build-debug/Test_autogen/EWIEGA46WW/moc_mainwindow.cpp
+ D:/Killian/Projets/FindAngle/cmake-build-debug/Test_autogen/mocs_compilation.cpp
+ D:/Killian/Projets/FindAngle/mainwindow.h
 CMakeFiles/Test.dir/Triangle.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
  C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
@@ -288,8 +288,8 @@ CMakeFiles/Test.dir/Triangle.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h
  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
  C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h
- D:/Killian/Projets/Test/Triangle.cpp
- D:/Killian/Projets/Test/Triangle.hpp
+ D:/Killian/Projets/FindAngle/Triangle.cpp
+ D:/Killian/Projets/FindAngle/Triangle.hpp
 CMakeFiles/Test.dir/main.cpp.obj
  ../Triangle.hpp
  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
@@ -435,9 +435,9 @@ CMakeFiles/Test.dir/main.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
- D:/Killian/Projets/Test/SvgLoader.h
- D:/Killian/Projets/Test/main.cpp
- D:/Killian/Projets/Test/mainwindow.h
+ D:/Killian/Projets/FindAngle/SvgLoader.h
+ D:/Killian/Projets/FindAngle/main.cpp
+ D:/Killian/Projets/FindAngle/mainwindow.h
 CMakeFiles/Test.dir/mainwindow.cpp.obj
  ../Triangle.hpp
  C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
@@ -577,6 +577,6 @@ CMakeFiles/Test.dir/mainwindow.cpp.obj
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
- D:/Killian/Projets/Test/SvgLoader.h
- D:/Killian/Projets/Test/mainwindow.cpp
- D:/Killian/Projets/Test/mainwindow.h
+ D:/Killian/Projets/FindAngle/SvgLoader.h
+ D:/Killian/Projets/FindAngle/mainwindow.cpp
+ D:/Killian/Projets/FindAngle/mainwindow.h

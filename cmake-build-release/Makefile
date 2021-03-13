@@ -67,24 +67,13 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Killian\Projets\Test
+CMAKE_SOURCE_DIR = D:\Killian\Projets\FindAngle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Killian\Projets\Test\cmake-build-release
+CMAKE_BINARY_DIR = D:\Killian\Projets\FindAngle\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -97,11 +86,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Killian\Projets\Test\cmake-build-release\CMakeFiles D:\Killian\Projets\Test\cmake-build-release\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Killian\Projets\Test\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,30 +130,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Test
+# Target rules for targets named FindAngle
 
 # Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
-.PHONY : Test
+FindAngle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindAngle
+.PHONY : FindAngle
 
 # fast build rule for target.
-Test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+FindAngle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/build
+.PHONY : FindAngle/fast
 
 #=============================================================================
-# Target rules for targets named Test_autogen
+# Target rules for targets named FindAngle_autogen
 
 # Build rule for target.
-Test_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test_autogen
-.PHONY : Test_autogen
+FindAngle_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindAngle_autogen
+.PHONY : FindAngle_autogen
 
 # fast build rule for target.
-Test_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_autogen.dir\build.make CMakeFiles/Test_autogen.dir/build
-.PHONY : Test_autogen/fast
+FindAngle_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle_autogen.dir\build.make CMakeFiles/FindAngle_autogen.dir/build
+.PHONY : FindAngle_autogen/fast
+
+FindAngle_autogen/mocs_compilation.obj: FindAngle_autogen/mocs_compilation.cpp.obj
+
+.PHONY : FindAngle_autogen/mocs_compilation.obj
+
+# target to build an object file
+FindAngle_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/FindAngle_autogen/mocs_compilation.cpp.obj
+.PHONY : FindAngle_autogen/mocs_compilation.cpp.obj
+
+FindAngle_autogen/mocs_compilation.i: FindAngle_autogen/mocs_compilation.cpp.i
+
+.PHONY : FindAngle_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+FindAngle_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/FindAngle_autogen/mocs_compilation.cpp.i
+.PHONY : FindAngle_autogen/mocs_compilation.cpp.i
+
+FindAngle_autogen/mocs_compilation.s: FindAngle_autogen/mocs_compilation.cpp.s
+
+.PHONY : FindAngle_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+FindAngle_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/FindAngle_autogen/mocs_compilation.cpp.s
+.PHONY : FindAngle_autogen/mocs_compilation.cpp.s
 
 SvgLoader.obj: SvgLoader.cpp.obj
 
@@ -161,7 +188,7 @@ SvgLoader.obj: SvgLoader.cpp.obj
 
 # target to build an object file
 SvgLoader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/SvgLoader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/SvgLoader.cpp.obj
 .PHONY : SvgLoader.cpp.obj
 
 SvgLoader.i: SvgLoader.cpp.i
@@ -170,7 +197,7 @@ SvgLoader.i: SvgLoader.cpp.i
 
 # target to preprocess a source file
 SvgLoader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/SvgLoader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/SvgLoader.cpp.i
 .PHONY : SvgLoader.cpp.i
 
 SvgLoader.s: SvgLoader.cpp.s
@@ -179,35 +206,8 @@ SvgLoader.s: SvgLoader.cpp.s
 
 # target to generate assembly for a file
 SvgLoader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/SvgLoader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/SvgLoader.cpp.s
 .PHONY : SvgLoader.cpp.s
-
-Test_autogen/mocs_compilation.obj: Test_autogen/mocs_compilation.cpp.obj
-
-.PHONY : Test_autogen/mocs_compilation.obj
-
-# target to build an object file
-Test_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj
-.PHONY : Test_autogen/mocs_compilation.cpp.obj
-
-Test_autogen/mocs_compilation.i: Test_autogen/mocs_compilation.cpp.i
-
-.PHONY : Test_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-Test_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i
-.PHONY : Test_autogen/mocs_compilation.cpp.i
-
-Test_autogen/mocs_compilation.s: Test_autogen/mocs_compilation.cpp.s
-
-.PHONY : Test_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-Test_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s
-.PHONY : Test_autogen/mocs_compilation.cpp.s
 
 Triangle.obj: Triangle.cpp.obj
 
@@ -215,7 +215,7 @@ Triangle.obj: Triangle.cpp.obj
 
 # target to build an object file
 Triangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Triangle.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/Triangle.cpp.obj
 .PHONY : Triangle.cpp.obj
 
 Triangle.i: Triangle.cpp.i
@@ -224,7 +224,7 @@ Triangle.i: Triangle.cpp.i
 
 # target to preprocess a source file
 Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Triangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/Triangle.cpp.i
 .PHONY : Triangle.cpp.i
 
 Triangle.s: Triangle.cpp.s
@@ -233,7 +233,7 @@ Triangle.s: Triangle.cpp.s
 
 # target to generate assembly for a file
 Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Triangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/Triangle.cpp.s
 .PHONY : Triangle.cpp.s
 
 main.obj: main.cpp.obj
@@ -242,7 +242,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -251,7 +251,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -260,7 +260,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.obj: mainwindow.cpp.obj
@@ -269,7 +269,7 @@ mainwindow.obj: mainwindow.cpp.obj
 
 # target to build an object file
 mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/mainwindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/mainwindow.cpp.obj
 .PHONY : mainwindow.cpp.obj
 
 mainwindow.i: mainwindow.cpp.i
@@ -278,7 +278,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -287,7 +287,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindAngle.dir\build.make CMakeFiles/FindAngle.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 # Help Target
@@ -298,14 +298,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Test_autogen
-	@echo ... Test
+	@echo ... FindAngle_autogen
+	@echo ... FindAngle
+	@echo ... FindAngle_autogen/mocs_compilation.obj
+	@echo ... FindAngle_autogen/mocs_compilation.i
+	@echo ... FindAngle_autogen/mocs_compilation.s
 	@echo ... SvgLoader.obj
 	@echo ... SvgLoader.i
 	@echo ... SvgLoader.s
-	@echo ... Test_autogen/mocs_compilation.obj
-	@echo ... Test_autogen/mocs_compilation.i
-	@echo ... Test_autogen/mocs_compilation.s
 	@echo ... Triangle.obj
 	@echo ... Triangle.i
 	@echo ... Triangle.s

@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Killian\Projets\Test
+CMAKE_SOURCE_DIR = D:\Killian\Projets\FindAngle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Killian\Projets\Test\cmake-build-release
+CMAKE_BINARY_DIR = D:\Killian\Projets\FindAngle\cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -79,72 +79,72 @@ include CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj: Test_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.obj -c D:\Killian\Projets\Test\cmake-build-release\Test_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.obj -c D:\Killian\Projets\FindAngle\cmake-build-release\Test_autogen\mocs_compilation.cpp
 
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\Test\cmake-build-release\Test_autogen\mocs_compilation.cpp > CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.i
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\FindAngle\cmake-build-release\Test_autogen\mocs_compilation.cpp > CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\Test\cmake-build-release\Test_autogen\mocs_compilation.cpp -o CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.s
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\FindAngle\cmake-build-release\Test_autogen\mocs_compilation.cpp -o CMakeFiles\Test.dir\Test_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/Test.dir/main.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/main.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\main.cpp.obj -c D:\Killian\Projets\Test\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/main.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\main.cpp.obj -c D:\Killian\Projets\FindAngle\main.cpp
 
 CMakeFiles/Test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/main.cpp.i"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\Test\main.cpp > CMakeFiles\Test.dir\main.cpp.i
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\FindAngle\main.cpp > CMakeFiles\Test.dir\main.cpp.i
 
 CMakeFiles/Test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/main.cpp.s"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\Test\main.cpp -o CMakeFiles\Test.dir\main.cpp.s
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\FindAngle\main.cpp -o CMakeFiles\Test.dir\main.cpp.s
 
 CMakeFiles/Test.dir/mainwindow.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/mainwindow.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/mainwindow.cpp.obj: ../mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/mainwindow.cpp.obj"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\mainwindow.cpp.obj -c D:\Killian\Projets\Test\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/mainwindow.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\mainwindow.cpp.obj -c D:\Killian\Projets\FindAngle\mainwindow.cpp
 
 CMakeFiles/Test.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/mainwindow.cpp.i"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\Test\mainwindow.cpp > CMakeFiles\Test.dir\mainwindow.cpp.i
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\FindAngle\mainwindow.cpp > CMakeFiles\Test.dir\mainwindow.cpp.i
 
 CMakeFiles/Test.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/mainwindow.cpp.s"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\Test\mainwindow.cpp -o CMakeFiles\Test.dir\mainwindow.cpp.s
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\FindAngle\mainwindow.cpp -o CMakeFiles\Test.dir\mainwindow.cpp.s
 
 CMakeFiles/Test.dir/SvgLoader.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/SvgLoader.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/SvgLoader.cpp.obj: ../SvgLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/SvgLoader.cpp.obj"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\SvgLoader.cpp.obj -c D:\Killian\Projets\Test\SvgLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/SvgLoader.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\SvgLoader.cpp.obj -c D:\Killian\Projets\FindAngle\SvgLoader.cpp
 
 CMakeFiles/Test.dir/SvgLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/SvgLoader.cpp.i"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\Test\SvgLoader.cpp > CMakeFiles\Test.dir\SvgLoader.cpp.i
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\FindAngle\SvgLoader.cpp > CMakeFiles\Test.dir\SvgLoader.cpp.i
 
 CMakeFiles/Test.dir/SvgLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/SvgLoader.cpp.s"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\Test\SvgLoader.cpp -o CMakeFiles\Test.dir\SvgLoader.cpp.s
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\FindAngle\SvgLoader.cpp -o CMakeFiles\Test.dir\SvgLoader.cpp.s
 
 CMakeFiles/Test.dir/Triangle.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Triangle.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/Triangle.cpp.obj: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.obj"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Triangle.cpp.obj -c D:\Killian\Projets\Test\Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\Triangle.cpp.obj -c D:\Killian\Projets\FindAngle\Triangle.cpp
 
 CMakeFiles/Test.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Triangle.cpp.i"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\Test\Triangle.cpp > CMakeFiles\Test.dir\Triangle.cpp.i
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Killian\Projets\FindAngle\Triangle.cpp > CMakeFiles\Test.dir\Triangle.cpp.i
 
 CMakeFiles/Test.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Triangle.cpp.s"
-	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\Test\Triangle.cpp -o CMakeFiles\Test.dir\Triangle.cpp.s
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Killian\Projets\FindAngle\Triangle.cpp -o CMakeFiles\Test.dir\Triangle.cpp.s
 
 # Object files for target Test
 Test_OBJECTS = \
@@ -170,7 +170,7 @@ Test.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
 Test.exe: CMakeFiles/Test.dir/objects1.rsp
 Test.exe: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Killian\Projets\Test\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/Test.dir/clean:
 .PHONY : CMakeFiles/Test.dir/clean
 
 CMakeFiles/Test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Killian\Projets\Test D:\Killian\Projets\Test D:\Killian\Projets\Test\cmake-build-release D:\Killian\Projets\Test\cmake-build-release D:\Killian\Projets\Test\cmake-build-release\CMakeFiles\Test.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Killian\Projets\FindAngle D:\Killian\Projets\FindAngle D:\Killian\Projets\FindAngle\cmake-build-release D:\Killian\Projets\FindAngle\cmake-build-release D:\Killian\Projets\FindAngle\cmake-build-release\CMakeFiles\Test.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 
